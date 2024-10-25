@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Exercise</title>
+    <link rel="stylesheet" href="./exercise.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="first-container">
+        <div class="welcome-container">
+            <h3>Welcome to your Favorite Research Bank</h3>
+        </div>
+        <div class="button-container">
+            <button type="button" id="button-open-modal">Add Research Item</button>
+        </div>
+    </div>
+    <div class="second-container" id="second-container">
+        <!-- <div class="website-paragraph">
+            <div class="website-nasa-container">
+                <div class="nasa">
+                    <a href="#">Website for NASA DATA</a>
+                </div>
+                <div class="icon-container">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <div class="paragraph-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam quod excepturi nemo, fugiat tenetur quia perspiciatis obcaecati dolorem magnam!</p>
+            </div>
+        </div> -->
+    </div>
+    <div class="modal-overlay-container" id="modal-overlay-container">
+        <div class="modal">
+            <div class="close-icon" id="close-icon">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="add-research-item">
+                <h3>Add Research Item</h3>
+            </div>
+            <div class="modal-form">
+                <form id="form">
+                    <div class="input-group">
+                        <label for="name-of-item">Name of Item</label>
+                        <input type="text" id="name-of-item" placeholder="Data Analysis Website for Engineers">
+                    </div>
+                    <div class="input-group">
+                        <label for="link-of-item">Name of Item</label>
+                        <input type="text" id="link-of-item" placeholder="e.g. www.item.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="description-of-item">Description of Item</label>
+                        <textarea name="description-of-item" id="description-of-item"></textarea>
+                    </div>
+                    <div class="buttom-for-form">
+                        <button type="submit" id="buttom-for-form">Add Research Item</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./exercise.js"></script>
+</body>
+</html>

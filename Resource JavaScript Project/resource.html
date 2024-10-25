@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reource Management</title>
+    <link rel="stylesheet" href="./resource.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-resource-container">
+        <div class="heading-button-container">
+            <div class="heading">
+                <h1>Welcome</h1>
+            </div>
+            <div class="button-container">
+                <button type="button" id="open-form">Create A Resource</button>
+            </div>
+        </div>
+        <div class="display-main-container" id="display-main-container">
+            <div class="display-form">
+                <div class="website-title-icon">
+                    <div class="website-title" id="website-title">
+                        
+                    </div>
+                    <div class="link-text" id="link-text">
+                        
+                    </div>
+                    <div class="delete-icon" id="delete-icon">
+                      
+                    </div>
+                </div>
+                <div class="description-ui" id="description-ui">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="form-container" id="form-container">
+            <form class="form" id="form">
+                <div class="close-container" id="close-container">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <div class="create-resource-container">
+                    <div class="create-resource">
+                        <h1>Create Resource</h1>
+                    </div>
+                    <div class="name-website">
+                        <label for="website">Name of Website</label>
+                        <input type="text" id="website" placeholder="Enter Website">
+                    </div>
+                    <div class="link-website">
+                        <label for="link">Link of Website</label>
+                        <input type="text" id="link" placeholder="Link of Website">
+                    </div>
+                    <div class="description-website">
+                        <label for="description">Description of Website</label>
+                        <textarea name="description" id="description" placeholder="Enter Description"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" id="button-form">Create</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+
+    <script src="./resource.js"></script>
+</body>
+</html>

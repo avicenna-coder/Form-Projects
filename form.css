@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: hsl(148, 38%, 91%);
+}
+
+.contact-us-container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.form{
+    width:35%;
+    height:auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin:10rem auto;
+    background-color: white;
+    row-gap: 1rem;
+    border-radius: 0.5rem;
+}
+
+.heading{
+    width:100%;
+    height:auto;
+}
+
+.heading h2{
+    font-size: 2rem;    
+}
+
+.first-second-names{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.first-name{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.first-name input{
+    width:100%;
+    height:auto;
+    padding:0.5rem;
+}
+
+.second-name{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.second-name input{
+    width:100%;
+    height:auto;
+    padding:0.5rem;
+}
+
+.email-address{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;    
+}
+
+.email-address input{
+    width:100%;
+    height:auto;
+    padding:0.5rem;
+}
+
+.radio-type{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.query-type{
+    width:100%;
+    height:auto;
+}
+
+.query-type p{
+    font-size: 0.9rem;
+}
+
+.general-support-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.general-enquiry{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+}
+.support-request{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+}
+
+.comment{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.comment label{
+    
+}
+
+textarea{
+    width:100%;
+    height:auto;
+    padding: 0.5rem 0 3.5rem 0.5rem;
+}
+
+.check{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.check label{
+
+}
+
+.submit-button{
+    width:100%;
+    height:auto;
+}
+
+.submit-button button{
+    width:100%;
+    height:auto;
+    padding:0.8rem;
+    border:none;
+    outline:none;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: hsl(169, 82%, 27%);
+    color:white;
+    cursor:pointer;
+}
+
+.print-to-ui{
+    width:100%;
+    height:auto;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+.first-name-alert{
+    width:100%;
+    height:auto;
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.second-name-alert{
+    width:100%;
+    height:auto;
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.email-alert{
+    width:100%;
+    height:auto;
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.comment-alert{
+    width:100%;
+    height:auto;
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+

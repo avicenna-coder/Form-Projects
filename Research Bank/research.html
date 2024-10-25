@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Bank</title>
+    <link rel="stylesheet" href="./research.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="first-section">
+        <div class="top-text-container">
+            <p>Welcome to your favorite research bank</p>
+        </div>
+        <div class="add-button-container">
+            <button id="add-button" type="button">Add Research Item</button>
+        </div>
+    </div>
+
+    <div class="items-section" id="items-section">
+        <!-- <div class="research-item">
+            <div class="title-and-delete-container">
+                <a href="#">Website for NASA DATA</a>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="description-of-item">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod, deleniti maxime inventore itaque perferendis excepturi soluta tempora pariatur eos?
+                </p>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <div class="close-icon-container" id="close-icon">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="modal-title-container">
+                <h3>Add Research Item</h3>
+            </div>
+            <div class="modal-form">
+                <form id="form">
+                    <div class="input-group">
+                        <label for="name-of-item">Name of Item</label>
+                        <input type="text" name="name-of-item" id="name-of-item" placeholder="Data Analysis Website For Engineeers">
+                    </div>
+                    <div class="input-group">
+                        <label for="link-to-item">Name of Item</label>
+                        <input type="text" name="link-to-item" id="link-to-item" placeholder="e.g. www.item.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="description-to-item">Description of Item</label>
+                        <input type="text" name="description-to-item" id="description-to-item" placeholder="Enter Description">
+                    </div>
+                    <div class="button-form-container">
+                        <button type="submit" id="submitButton" class="formButton">Add Research Item</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./research.js"></script>
+</body>
+</html>
